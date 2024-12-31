@@ -1,0 +1,30 @@
+# Include all production dependencies
+-r requirements_prod.txt
+
+# Testing Framework
+pytest
+pytest-asyncio
+coverage
+pytest-cov
+
+# Linting and Code Formatting Tools
+black
+flake8
+isort
+mypy
+pylint
+bandit
+
+# Pre-commit Hooks
+pre-commit
+
+# Development Tools
+ipython
+faker  # For generating demo content
+httpx  # For making HTTP requests in tests
+
+# Debugging Tools
+ipdb
+
+# Documentation Tools
+mkdocs-material

@@ -1,0 +1,44 @@
+# Core FastAPI
+fastapi
+uvicorn[standard]
+gunicorn
+
+# Authentication System
+fastapi-users[sqlalchemy]
+
+# Admin Interface
+fastapi-admin
+
+# Templating Engine
+jinja2
+
+# Form Handling
+WTForms
+starlette-wtf
+
+# Caching
+fastapi-cache2[redis]
+redis
+
+# Database ORM and Migrations
+SQLAlchemy
+alembic
+
+# Asynchronous Database Support
+databases[sqlite]
+
+# Configuration Management
+pydantic[email]
+
+# Logging and Monitoring
+loguru
+sentry-sdk[starlette]
+
+# Async Task Queue/Worker
+celery[redis]
+
+# Rate Limiting
+slowapi
+
+# Security Utilities
+passlib[bcrypt]
