@@ -18,7 +18,7 @@
 #> 
 
 # Section: Target Installation Paths
-$rootDir = "D:\projects\FastAPI-Setup-local"
+$rootDir = "D:\projects\FastAPI-Setup"
 $requirementsDevPath = "$rootDir\requirements_dev.txt"
 $requirementsProdPath = "$rootDir\requirements_prod.txt"
 $pythonPath = (Get-Command python).Path

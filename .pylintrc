@@ -1,0 +1,16 @@
+[MASTER]
+jobs=1
+unsafe-load-any-extension=no
+
+[MESSAGES CONTROL]
+disable=all
+enable=missing-docstring,missing-module-docstring,missing-class-docstring,missing-function-docstring
+
+[FORMAT]
+max-line-length=79
+
+[BASIC]
+good-names=i,j,k,ex,Run,_
+
+[MISCELLANEOUS]
+notes=FIXME,XXX,TODO

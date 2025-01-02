@@ -14,6 +14,9 @@ isort
 mypy
 pylint
 bandit
+autopep8
+pycodestyle
+pep8
 
 # Pre-commit Hooks
 pre-commit
